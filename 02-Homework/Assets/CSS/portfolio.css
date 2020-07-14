@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+    background-color: rgb(248, 243, 238);
+}
+
+h3, h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+
+#header {
+    border-bottom: solid #888888;
+    border-top: solid #888888;
+    background-color: white;
+}
+
+#name {
+    background-color: #42a797;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#nav {
+    padding-top: 15px;
+    padding-bottom: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #888888;
+}
+
+.horizontal {
+    display: inline; 
+    border-left: 1px solid #dbdbdb; 
+    padding-left: 10px;
+    padding-right: 5px;
+
+}
+
+.first { 
+    border-left: none; 
+    padding-left: 0; 
+}
+
+
+
+#PortfolioCard {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border: solid 1px #e0e0e0;
+    border-radius: 0%;
+}
+
+#CardTitle {
+    padding-bottom: 5px;
+    border-bottom: solid 2px #dbdbdb;
+    margin-bottom: 15px;
+    color: #42a797;
+}
+
+.PortImg {
+    background-image: url('/02-Homework/Assets/Images/placeholder.png');
+    background-size: 100% 100%;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+}
+
+.PortImgBlank {
+    margin: 10px;
+}
+
+.PortCaption {
+    position: absolute;
+    bottom: 7px;
+    left: 0px;
+    text-align: center;
+    padding: 10px;
+    background-color: #42a797;
+    width: 100%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #696969;
+    color: white;
+    text-align: center;
+    border-top: solid 3px #42a797;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
