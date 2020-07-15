@@ -9,51 +9,57 @@
     <title>Contact Ian</title>
 </head>
 <body>
-    <header id="header">
+     <!-- Header Section starting with semantic tag for accessability-->
+  <header id="header">
+    <!-- Bootstrap grid layout -->
+    <div class="container">
 
-        <div class="container">
-    
-          <div class="row">
-    
-            <div id="name" class="col-sm-4 col-md-2">
-              <h3>
-                Ian Sachs
-              </h3>
-            </div>
-    
-            <div class="col-sm-2 col-md-7"></div>
-    
-            <div id="nav" class="col-sm-6 col-md-3">
-    
-              <span>
-    
-                <a class="horizontal first" href="index.html">About</a>
-    
-                <a class="horizontal" href="portfolio.html">Portfolio</a>
-    
-                <a class="horizontal" href="contact.html">Contact</a>
-    
-              </span>
-    
-            </div>
-          </div>
+      <div class="row">
+        <!-- Frist column for my name in the header -->
+        <div id="name" class="col-sm-4 col-md-4 col-lg-2">
+          <h3>
+            Ian Sachs
+          </h3>
         </div>
-    
-      </header>
+        <!-- empty space to layout the page -->
+        <div class="col-sm-2 col-md-4 col-lg-7"></div>
+        <!-- navbar links to the other pages -->
+        <div id="nav" class="col-sm-6 col-md-4 col-lg-3">
 
+          <span>
+    
+            <a class="horizontal first" href="index.html">About</a>
+
+            <a class="horizontal" href="portfolio.html">Portfolio</a>
+
+            <a class="horizontal" href="contact.html">Contact</a>
+
+          </span>
+
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+      <!-- Card Section Starting with grid sytem to size the card -->
       <div class="container">
+
         <div class="row">    
-          <div class="col-sm-12 col-lg-7">            
+
+          <div class="col-sm-12 col-lg-7">  
+
+            <!-- Bootstrap class to make a premade card -->          
             <div id="ContactCard" class="card">
     
               <div class="card-body">
-
+                <!-- card header -->
                 <div id="CardTitle">
                   
                     <h4>Contact</h4>
       
                 </div>
-
+                <!-- bootstrap forms and buttons -->
                 <div class="form-group">
                     <label id="label" for="exampleFormControlInput1">Name</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
@@ -77,7 +83,7 @@
           </div>
         </div>
       </div>
-    
+      <!-- footer -->
       <footer class="footer">
         <p>&copy; Copyright</p>
       </footer>
