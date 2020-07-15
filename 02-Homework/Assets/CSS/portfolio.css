@@ -81,7 +81,7 @@ a {
 }
 
 .PortImg {
-    background-image: url(/02-Homework/Assets/Images/photocard.png);
+    background-image: url(./02-Homework/Assets/Images/photocard.png);
     background-size: auto;
     width: 200px;
     height: 150px;
